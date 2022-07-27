@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: rgba(0, 255, 255, 0.274);
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    
+}
+#inpuText{
+    padding: 20px;
+    border-radius: 20px;
+
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 0;
+    text-align: end;
+    background-color: rgba(183, 188, 185, 0.514);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+
+}
+button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    background: rgb(56,158,203);
+    background: linear-gradient(0deg, rgba(56,158,203,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+
+}
+button:hover{
+    transform: scale(1.15);
+}
+button#equal{
+    height: 130px;
+}
